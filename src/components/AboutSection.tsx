@@ -1,4 +1,4 @@
-import aboutImage from "@/assets/about-thijs.jpg";
+import aboutImage from "@/assets/filler-about.jpg";
 
 const AboutSection = () => (
   <section id="about" className="py-24 px-6">
