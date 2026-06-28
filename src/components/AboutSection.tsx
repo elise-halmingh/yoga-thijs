@@ -20,15 +20,14 @@ const AboutSection = () => (
           Yoga met aandacht en verdieping
         </h2>
         <p className="font-body text-muted-foreground leading-relaxed mb-4">
-          Thijs geeft zijn lessen volgens een vaste, rustige opbouw waarin staande, zittende en liggende oefeningen worden afgewisseld, met veel aandacht voor ademhaling. De les wordt altijd afgesloten met een ontspanningsmoment, variërend van liggende meditatie tot zittende meditatie in de zenhouding (zazen).
+          Thijs geeft zijn lessen volgens een vaste, rustige opbouw waarin staande, zittende en liggende oefeningen worden afgewisseld. De les wordt altijd afgesloten met een ontspanningsmoment, variërend van liggende meditatie tot zittende meditatie met de nadruk op aandacht van de ademhaling.
         </p>
         <p className="font-body text-muted-foreground leading-relaxed mb-8">
-          Zijn werkwijze is mede geïnspireerd door The Power of Now van Eckhart Tolle. Thijs is afgestudeerd aan de Yoga Academie Nederland (YAN) in Amsterdam en heeft ruime ervaring als yogadocent, pilatesinstructeur en meditatietrainer in sportscholen. Daarnaast werkt hij met mensen met niet-aangeboren hersenletsel (NAH) bij Noorderbrug in Assen.
+          Zijn werkwijze is mede geïnspireerd door Deepak Chopra en Eckhart Tolle, waarbij zowel spiritueel als geestelijk nieuwe inzichten verkregen kunnen worden. Thijs is afgestudeerd aan de Yoga Academie Nederland (YAN) in Amsterdam en heeft ruime ervaring als yogadocent en meditatietrainer in sportscholen.
         </p>
         <div className="flex gap-12">
           {[
-            { num: "12+", label: "Jaren ervaring" },
-            { num: "2,000+", label: "Lessen gegeven" },
+            { num: "12+", label: "Jaren ervaring" }
           ].map((s) => (
             <div key={s.label}>
               <p className="font-heading text-3xl font-semibold text-primary">{s.num}</p>
